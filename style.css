@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,800;1,400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+.clas li{
+    list-style: none;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 6px solid rgb(98 89 89 / 47%);
+    width: 70px;
+}
+
+.text-primary{
+    color: #8d7f7f !important;
+}
+
+.class {
+    color: rgb(110, 94, 94) !important;
+}
+
+.card-text{
+    position: relative;
+    bottom: .4em;
+}
+
+.color-back{
+    background-color: #d3d3d38a;
+    padding: 0 7rem;
+    
+}
+
+footer .scroll-up{
+    
+}
+
+.scroll-up .fas{
+    font-size: 30px;
+    color: #a3a3a3;
+    position: relative;
+    left: 93%;
+    top: 1.6em;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .color-back{
+        background-color: #d3d3d38a;
+        padding: 0 2rem;
+        
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+        padding-top: 5px;
+    }
+
+    .rounded-circle {
+        border-radius: 50%!important;
+        margin-top: 1em;
+    }
+
+    .pb-4, .py-4 {
+        padding-bottom: 1.5rem!important;
+        padding: 0 .5em;
+    }
+
+    .scroll-up .fas{
+        font-size: 30px;
+        color: #a3a3a3;
+        position: relative;
+        left: 87% !important;
+        top: 2.6em !important;
+    }
+
+   
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .text-primary{
+        font-size: 30px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+
+   .lead{
+       font-size: 20px;
+   }
+
+   h3{
+       font-size: 17px;
+   }
+
+   .card-text{
+       font-size: 10px;
+   }
+
+   .color-back {
+    background-color: #d3d3d38a;
+    padding: 0 3rem;
+    }
+
+    .clas li{
+        font-size: 10px;
+    }
+    .pl-5, .px-5 {
+        padding-left: 0rem !important;
+    }
+
+    h6{
+        font-size: 13px;
+    }
+
+
+
+ }
