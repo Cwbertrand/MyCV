@@ -41,10 +41,6 @@ hr {
     
 }
 
-footer .scroll-up{
-    
-}
-
 .scroll-up .fas{
     font-size: 30px;
     color: #a3a3a3;
@@ -67,9 +63,19 @@ footer .scroll-up{
         padding-top: 5px;
     }
 
+    .card-text {
+        font-size: 15px !important;
+        text-align: justify;
+    }
+
     .rounded-circle {
         border-radius: 50%!important;
         margin-top: 1em;
+    }
+
+    .pl-1, .px-1,
+    .pl-2, .px-2{
+        font-size: 15px !important;
     }
 
     .pb-4, .py-4 {
@@ -124,7 +130,44 @@ footer .scroll-up{
     h6{
         font-size: 13px;
     }
-
-
-
  }
+
+  /* Large devices (desktops, 992px and up) */
+
+ @media (max-width: 992px) {
+
+    .text-primary{
+        font-size: 30px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+
+   .lead{
+       font-size: 20px;
+   }
+
+   h3{
+       font-size: 17px;
+   }
+
+   .card-text{
+       font-size: 10px;
+   }
+
+   .color-back {
+    background-color: #d3d3d38a;
+    padding: 0 3rem;
+    }
+
+    .clas li{
+        font-size: 10px;
+    }
+    .pl-5, .px-5 {
+        padding-left: 0rem !important;
+    }
+
+    h6{
+        font-size: 13px;
+    }
+
+  }
